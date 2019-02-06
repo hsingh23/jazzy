@@ -1,18 +1,13 @@
 module.exports = {
   baseUrl: "http://next-blog-firestore.now.sh",
-  siteTitle: "Next Blog Firestore",
-  description: "Awesome blog example built with Next.js and Firebase Firestore",
-  copyright: "Next Blog Firestore. MIT.",
+  siteTitle: "Jazzy's Q and A",
+  description: "Jasmine gets your questions and answers them",
+  copyright: "MIT.",
   languages: {
     en: {
       id: "en",
       title: "English",
       shortTitle: "Eng"
-    },
-    ru: {
-      id: "ru",
-      title: "Русский",
-      shortTitle: "Рус"
     }
   },
   defaultLanguage: "en",
@@ -45,10 +40,26 @@ module.exports = {
     }
   },
   authors: {
-    john: {
-      id: "john",
-      name: "John Simpson",
-      description: "Biography of John Simpson.",
+    jazzy: {
+      id: "jazzy",
+      name: "Jasmine",
+      description: "The one and only",
+      avatar: "/assets/authors/john.svg",
+      social: {
+        facebook: {
+          href: "https://www.facebook.com",
+          title: "Facebook"
+        },
+        instagram: {
+          href: "https://www.instagram.com/",
+          title: "Instagram"
+        }
+      }
+    },
+    harsh: {
+      id: "harsh",
+      name: "Harsh",
+      description: "Wildcard",
       avatar: "/assets/authors/john.svg",
       social: {
         facebook: {
